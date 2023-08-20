@@ -1,9 +1,10 @@
 from db.models import Authors, Quotes, Tag
 import json
 from datetime import datetime
+from connect_db import connect
 
-authors = "json_data/authors.json"
-quotes = "json_data/quotes.json"
+authors = "../json_data/authors.json"
+quotes = "../json_data/quotes.json"
 
 if __name__ == "__main__":
     with open(authors, "r") as fa:
