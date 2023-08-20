@@ -1,5 +1,4 @@
-from models import Quotes, Authors
-from db.connect_db import connect
+from db.models import Quotes, Authors
 
 
 def quotes_by_author(name: str):

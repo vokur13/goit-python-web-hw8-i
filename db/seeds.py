@@ -1,5 +1,4 @@
-from models import Authors, Quotes, Tag
-from db.connect_db import connect
+from db.models import Authors, Quotes, Tag
 import json
 from datetime import datetime
 

@@ -1,5 +1,4 @@
-from models import Quotes
-from db.connect_db import connect
+from db.models import Quotes
 
 
 def quotes_by_tag(tag: str):
